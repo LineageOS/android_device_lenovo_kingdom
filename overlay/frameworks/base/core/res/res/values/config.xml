@@ -21,7 +21,7 @@
 
     <!-- Button illumination -->
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
-    
+
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
          of the following keys present:
@@ -442,5 +442,8 @@
         <item>"/system/framework/oat/arm/services.odex"</item>
         <item>"/system/framework/arm/boot.oat"</item>
         <item>"/system/framework/arm/boot-core-libart.oat"</item>
-   </string-array>
+    </string-array>
+
+    <!-- Keep chosen default camera app pinned in memory for faster launching -->
+    <bool name="config_pinnerCameraApp">true</bool>
 </resources>
