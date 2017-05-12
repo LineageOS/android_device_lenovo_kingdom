@@ -180,6 +180,9 @@ BOARD_SEPOLICY_DIRS += \
 # Snapdragon LLVM
 TARGET_USE_SDCLANG := true
 
+# Time services
+BOARD_USES_QC_TIME_SERVICES := true
+
 # Wifi
 BOARD_HAS_QCOM_WLAN              := true
 BOARD_HAS_QCOM_WLAN_SDK          := true
