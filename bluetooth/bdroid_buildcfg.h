@@ -26,4 +26,7 @@
 #define BTA_SKIP_BLE_READ_REMOTE_FEAT TRUE
 #define BTA_BLE_SKIP_CONN_UPD  TRUE
 
+#define BTM_WBS_INCLUDED TRUE       /* Enable WBS */
+#define BTIF_HF_WBS_PREFERRED TRUE  /* Use WBS    */
+
 #endif
