@@ -67,13 +67,12 @@ PRODUCT_PACKAGES += \
     camera.msm8974 \
     Snap
 
-# Dalvik/HWUI
+# Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=192m \
     dalvik.vm.heapsize=512m
 
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
-$(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
 
 # Data
 PRODUCT_PACKAGES += \
