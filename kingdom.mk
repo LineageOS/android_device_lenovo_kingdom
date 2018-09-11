@@ -106,7 +106,7 @@ PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 
 # Doze
 PRODUCT_PACKAGES += \
-    LenovoDoze
+    DeviceSettings
 
 # DRM
 PRODUCT_PACKAGES += \
