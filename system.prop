@@ -2,87 +2,13 @@
 # system.prop for K920
 #
 
-# Audio
-mm.enable.smoothstreaming=true
-mm.enable.qcom_parser=37491
-ro.qc.sdk.audio.fluencetype=fluence
-persist.audio.fluence.voicecall=true
-persist.audio.fluence.voicerec=false
-persist.audio.fluence.speaker=false
-audio.offload.buffer.size.kb=32
-av.offload.enable=true
-av.streaming.offload.enable=true
-audio.offload.multiple.enabled=false
-audio.offload.gapless.enabled=true
-tunnel.audio.encode=true
-media.aac_51_output_enabled=true
-audio.offload.pcm.16bit.enable=true
-audio.offload.pcm.24bit.enable=true
-use.dedicated.device.for.voip=true
-
-# Bluetooth
-bluetooth.hfp.client=1
-qcom.bluetooth.soc=smd
-ro.bluetooth.hfp.ver=1.7
-ro.qualcomm.bt.hci_transport=smd
-
-ro.bluetooth.dun=false
-ro.bluetooth.sap=false
-ro.qualcomm.bluetooth.ftp=true
-ro.qualcomm.bluetooth.hfp=true
-ro.qualcomm.bluetooth.hsp=true
-ro.qualcomm.bluetooth.map=true
-ro.qualcomm.bluetooth.nap=true
-ro.qualcomm.bluetooth.opp=true
-ro.qualcomm.bluetooth.pbap=true
-
-# Camera & Media
-camera2.portability.force_api=1
-camera.cts.test=0
-media.stagefright.legacyencoder=true
-media.stagefright.less-secure=true
-
-# Display & Graphics
-ro.sf.lcd_density=480
-ro.qualcomm.cabl=0
-ro.opengles.version=196608
-persist.hwc.mdpcomp.enable=true
+# API (for CTS backward compatibility)
+ro.product.first_api_level=19
 
 # GPS
 persist.gps.qc_nlp_in_use=0
 ro.gps.agps_provider=1
 
-# Performance
-ro.vendor.extension_library=libqti-perfd-client.so
-
 # RIL & Data
-ro.telephony.call_ring.multiple=0
-ro.use_data_netmgrd=true
-ro.data.large_tcp_window_size=true
-persist.data.netmgrd.qos.enable=true
-persist.data.tcpackprio.enable=true
-
-rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
-persist.radio.add_power_save=1
-persist.radio.apm_sim_not_pwdn=1
-ro.ril.em_redial_vt_failover=true
 ro.ril.ecclist=112,911,999,110,122,119,120,000,08,118,100,101,102,103
-persist.radio.custom_ecc=1
 persist.data.qmi.adb_logmask=0
-
-# SDCardFS
-ro.sys.sdcardfs=true
-
-# Sensors
-ro.qc.sdk.camera.facialproc=true
-ro.qc.sdk.gestures.camera=false
-ro.qti.sdk.sensors.gestures=true
-ro.qti.sensors.bte=true
-ro.qti.sensors.gtap=true
-ro.qti.sensors.vmd=true
-ro.qti.sensors.pick_up=false
-ro.qti.sensors.tilt_detector=true
-ro.qti.sensors.scrn_ortn=true
-
-# Wifi
-wifi.interface=wlan0

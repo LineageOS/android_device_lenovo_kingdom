@@ -1,18 +1,18 @@
 [
   {
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
+    "repository":  "android_device_lenovo_msm8974-common",
+    "target_path": "device/lenovo/msm8974-common"
   },
   {
-    "repository": "android_kernel_lenovo_msm8974",
-    "target_path": "kernel/lenovo/msm8974"
+    "repository":  "android_kernel_cyanogen_msm8974",
+    "target_path": "kernel/cyanogen/msm8974"
   },
   {
-    "repository": "android_packages_resources_devicesettings",
+    "repository":  "android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings"
   },
   {
-    "repository": "android_packages_apps_FlipFlap",
+    "repository":  "android_packages_apps_FlipFlap",
     "target_path": "packages/apps/FlipFlap"
   }
 ]

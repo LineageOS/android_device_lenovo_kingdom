@@ -1,0 +1,128 @@
+# Audio (tfa9890)
+vendor/etc/tfa98xx/Lenovo.speaker
+vendor/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config
+vendor/etc/tfa98xx/TFA9890_N1C3_1_7_1.patch
+vendor/etc/tfa98xx/coldboot.patch
+vendor/etc/tfa98xx/Lenovo_HQ.preset
+vendor/etc/tfa98xx/Lenovo_LOUD.preset
+vendor/etc/tfa98xx/Lenovo_LOUD_BT.preset
+vendor/etc/tfa98xx/Lenovo_HQ.eq
+vendor/etc/tfa98xx/Lenovo_LOUD.eq
+vendor/etc/tfa98xx/Lenovo_LOUD_BT.eq
+
+# Bluetooth
+vendor/bin/btnvtool
+
+# Camera
+vendor/lib/libmmcamera2_c2d_module.so
+vendor/lib/libmmcamera2_cpp_module.so
+vendor/lib/libmmcamera2_frame_algorithm.so
+vendor/lib/libmmcamera2_iface_modules.so
+vendor/lib/libmmcamera2_imglib_modules.so
+vendor/lib/libmmcamera2_is.so
+vendor/lib/libmmcamera2_isp_modules.so
+vendor/lib/libmmcamera2_pproc_modules.so
+vendor/lib/libmmcamera2_q3a_special.so
+vendor/lib/libmmcamera2_sensor_modules.so
+vendor/lib/libmmcamera2_stats_algorithm.so
+vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera2_vpe_module.so
+vendor/lib/libmmcamera2_wnr_module.so
+vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_hdr_gb_lib.so
+vendor/lib/libmmcamera_hdr_lib.so
+vendor/lib/libmmcamera_hi256.so
+vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_onsemi_eeprom.so
+vendor/lib/libmmcamera_ov5693.so
+vendor/lib/libmmcamera_s5k2p8.so
+vendor/lib/libmmcamera_tuning.so
+vendor/lib/libmmqjpeg_codec.so
+vendor/lib/liboemcamera.so
+vendor/lib/libqomx_jpegdec.so
+vendor/lib/libqomx_jpegenc.so
+
+# Camera actuators
+vendor/lib/libactuator_onsemi_lc898112_camcorder.so
+vendor/lib/libactuator_onsemi_lc898112_camera.so
+
+# Camera Chromatix
+vendor/lib/libchromatix_ov5693_common.so
+vendor/lib/libchromatix_ov5693_default_video.so
+vendor/lib/libchromatix_ov5693_fhd.so
+vendor/lib/libchromatix_ov5693_hd.so
+vendor/lib/libchromatix_ov5693_hfr.so
+vendor/lib/libchromatix_ov5693_preview.so
+vendor/lib/libchromatix_ov5693_zsl.so
+vendor/lib/libchromatix_s5k2p8_common.so
+vendor/lib/libchromatix_s5k2p8_default_video.so
+vendor/lib/libchromatix_s5k2p8_hfr_120.so
+vendor/lib/libchromatix_s5k2p8_liveshot.so
+vendor/lib/libchromatix_s5k2p8_preview.so
+vendor/lib/libchromatix_s5k2p8_snapshot.so
+vendor/lib/libchromatix_s5k2p8_video_4k.so
+vendor/lib/libchromatix_s5k2p8_video_hd.so
+vendor/lib/libchromatix_s5k2p8_zsl.so
+
+# DRM
+vendor/lib/libsecureui.so
+
+# Graphics
+vendor/lib/libOpenCL.so
+
+# Media
+vendor/lib/libI420colorconvert.so
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxAmrwbplusDec.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxQcelp13Dec.so
+vendor/lib/libOmxWmaDec.so
+vendor/lib/libmm-color-convertor.so
+
+# NFC
+vendor/firmware/libpn547_fw.so
+
+# Qualcomm framework
+-vendor/lib/libqcci_legacy.so
+vendor/lib/libqdi.so
+vendor/lib/libqdp.so
+-vendor/lib/libqmi.so
+-vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_helper.so
+-vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
+-vendor/lib/libqmiservices.so
+
+# Radio
+vendor/bin/diag_mdlog
+vendor/bin/netmgrd
+vendor/etc/qcril.db
+vendor/lib/libnetmgr.so
+vendor/lib/libperipheral_client.so
+
+# Sensors
+vendor/bin/sensors.qcom
+vendor/lib/hw/activity_recognition.msm8974.so
+vendor/lib/hw/sensors.msm8974.so
+vendor/lib/libasn1cper.so
+vendor/lib/libasn1crt.so
+vendor/lib/libasn1crtx.so
+vendor/lib/libsensor1.so
+vendor/lib/libsensor_reg.so
+
+# WCNSS firmware
+vendor/firmware/wcnss.b00
+vendor/firmware/wcnss.b01
+vendor/firmware/wcnss.b02
+vendor/firmware/wcnss.b04
+vendor/firmware/wcnss.b06
+vendor/firmware/wcnss.b07
+vendor/firmware/wcnss.b08
+vendor/firmware/wcnss.b09
+vendor/firmware/wcnss.mdt
+
+# Widevine - from angler - OPR6.170623.017 factory image
+vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/libwvm.so
